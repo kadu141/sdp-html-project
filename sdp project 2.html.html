@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+    <div class="container">
+        <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+        <h2 id="titleDescription">Beautiful Commercial Photography</h2>
+        <a onclick="myFunction()" id="viewWork">View Work</a>
+    </div>
+    <div id="images">
+    <div class="image">
+        <img src="https://i.pcmag.com/imagery/reviews/03pihgdShr7zDCGcQVI8XyZ-15..v1569474383.jpg" id="backGroundImage" >
+    </div>
+    <div class="image">
+        <h3 id="ourWork"> Our Work</h3>
+        <img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/04/1.jpg" id="firstImage" >
+    </div>
+    <div class="image">
+        <img src="https://i1.adis.ws/i/canon/pro-inside-professional-food-photography-1_46a998f373b44dc583ee52d9448ece04?$media-collection-full-dt-jpg$" alt="pic3" id="secondImage"><p id="firstImageName"> Food Photography </p>
+        
+    </div>
+    <div class="image">
+        <img src="https://cdn.photographycourse.net/wp-content/uploads/2022/04/small-scale-aerial-photograph.png" alt="pic4" id="thirdImage">
+        <p id="secondImageName">Aerial Photography</p>
+    </div>
+    <div class="image">
+        <img src="https://121clicks.com/wp-content/uploads/2012/09/Ursula_Abresch_14.jpg" alt="pic5" id="fourthImage">
+        <p id="thirdImageName">Abstract Photography</p>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>

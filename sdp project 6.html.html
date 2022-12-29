@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PAGE</title>
+    <style>
+        body{
+            text-align: center;
+            background-color:blue;
+        }
+        #courseTable{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div style="background-color:green;">
+            <h1 id="table-heading">TABLES AND LISTS</h1>
+            <br><br>
+            <table id="courseTable">
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Department</th>
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>GOPI</td>
+                    <td>Information Technology</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>CHANDRU</td>
+                    <td>Information Technology</td>
+                    <td>IT</td>
+                </tr>
+            </table>
+            <br>
+            <h2 id="courseHeading">No of Courses Available</h2>
+            <br>
+            <ul id="courseList">
+                <li>Computer science</li>
+                <li>Information Technology</li>
+                <li>Electronics</li>
+            </ul>
+        </div>
+        <br>
+        <div style="background-color:green;">
+            <br>
+            <h1 id="imageHeading">Image Map</h1>
+            <br>
+            <img src="https://www.newscrab.com/static/c1e/client/90607/uploaded/a979f107bfb9e1d3e1aca367d9550786.png" usemap="#workimage" width="400" height="380">
+            <map name="workimage">
+                <area coords="35,44,270,380" href="https://en.wikipedia.org/wiki/Peafowl">
+            </map>
+        </div>
+        <br>
+        <div  style="background-color: green;">
+            <h1>FORMS AND FORM ELEMENTS</h1>
+            <br>
+            <form>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname"><br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="text"id="password"><br>
+                <br>
+                <label for="course">Courses:</label>
+                <select name="course" id="course">
+                    <option value="computer">
+                    <option value="information technology">
+                    <option value="electronics">
+                </select><br>
+                <br>
+                <label for="countries">Country:</label>
+                <input list="countries" name="countries">
+                <datalist>
+                    <option value="INDIA">
+                    <option value="SRI LANKA">
+                    <option value="NEPAL">
+                </datalist><br>
+                <br>
+                <button type="button" id=submit_btn>Submit</button>
+            </form>
+        </div>
+        <br>
+        <div style="background-color:green;">
+            <br>
+            <h1 id="frameHeading">FRAMES IN HTML</h1><br>
+            <br>
+            <iframe src="https://content.time.com/time/daily/2009/0908/360_wikipedia_0817.jpg" id="frameImage1"></iframe>
+            <iframe src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Wikipedia_content_by_subject.png/500px-Wikipedia_content_by_subject.png" id="frameImage2"></iframe>
+            <br>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
